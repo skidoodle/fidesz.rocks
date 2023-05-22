@@ -9,13 +9,12 @@ h1 {
   font-size: 50px;
   font-weight: 900;
   text-align: center;
-  margin-top: 50px;
 }
 
 @media screen and (max-width: 800px) {
   h1,
   footer {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   img {
@@ -37,7 +36,7 @@ h1 {
 }
 
 #image {
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0 0 100px #fd8100;
   background-color: #fd8100;
@@ -52,7 +51,10 @@ img {
 }
 
 .footer {
-  margin-top: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 1%;
+  width: 100%;
   text-align: center;
   text-decoration: underline;
   font-style: italic;
