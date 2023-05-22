@@ -1,6 +1,5 @@
-// define your images here
 var images = [
-    "https://i.redd.it/c7pk88g9pa1b1.jpg",
+"https://i.redd.it/c7pk88g9pa1b1.jpg",
 "https://i.redd.it/t3pj4n1vro0b1.jpg",
 "https://i.redd.it/4qhzj56hof0b1.jpg",
 "https://i.redd.it/2w0unav7k60b1.jpg",
@@ -578,8 +577,8 @@ var images = [
 "https://i.redd.it/mx6mj6gjlv7a1.jpg",
 "https://i.redd.it/g58c07ha4q7a1.jpg",
 "https://i.redd.it/uh7cdtdyxj7a1.jpg"
-   ];
-   var randomImage = images[Math.floor(Math.random() * images.length)];
-   console.log(randomImage);
-   var image = "<img src='" + randomImage + "' onerror=onerror=this.src='https://cdn.albert.lol/stqX2W8E82CpA';>";
-   document.getElementById("image").innerHTML = image;
+];
+   
+let randomImage = images[Math.floor(Math.random() * images.length)];
+let image = "<img src='" + randomImage + "' onerror=onerror=this.src='https://cdn.albert.lol/stqX2W8E82CpA';>";
+document.querySelector("#image").innerHTML = image;

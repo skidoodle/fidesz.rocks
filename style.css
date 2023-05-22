@@ -1,10 +1,10 @@
 body {
   background-color: #121212;
   color: #efefef;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
   color: #fd8100;
   font-size: 50px;
   font-weight: 900;
@@ -31,4 +31,15 @@ img {
   width: 800px;
   height: 600px;
   border-radius: 10px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a {
+  color: #fd8100;
 }
