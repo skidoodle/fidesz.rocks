@@ -578,7 +578,13 @@ var images = [
 "https://i.redd.it/g58c07ha4q7a1.jpg",
 "https://i.redd.it/uh7cdtdyxj7a1.jpg"
 ];
-   
+
 let randomImage = images[Math.floor(Math.random() * images.length)];
 let image = "<img src='" + randomImage + "' onerror=onerror=this.src='https://cdn.albert.lol/stqX2W8E82CpA';>";
 document.querySelector("#image").innerHTML = image;
+
+function newImage() {
+    let randomImage = images[Math.floor(Math.random() * images.length)];
+    let image = "<img src='" + randomImage + "' onerror=onerror=this.src='https://cdn.albert.lol/stqX2W8E82CpA';>";
+    document.querySelector("#image").innerHTML = image;
+}
